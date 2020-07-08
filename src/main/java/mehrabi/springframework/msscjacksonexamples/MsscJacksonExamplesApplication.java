@@ -1,4 +1,4 @@
-package main.java.mehrabi.springframework.sfgrestdocsexample;
+package mehrabi.springframework.msscjacksonexamples;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

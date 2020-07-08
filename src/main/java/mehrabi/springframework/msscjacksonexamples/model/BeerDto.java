@@ -1,4 +1,4 @@
-package mehrabi.springframework.msscjacksonexamples;
+package mehrabi.springframework.msscjacksonexamples.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
