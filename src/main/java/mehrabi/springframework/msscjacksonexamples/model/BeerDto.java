@@ -11,6 +11,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Null;
 import javax.validation.constraints.Positive;
 import java.math.BigDecimal;
+import java.time.LocalDate;
 import java.time.OffsetDateTime;
 import java.util.UUID;
 
@@ -39,4 +40,6 @@ public class BeerDto {
     @JsonFormat(pattern = "yyyy-MM-dd",shape = JsonFormat.Shape.STRING)
     private OffsetDateTime createdDate;
     private OffsetDateTime lastUpdateDate;
+
+    private LocalDate  myLocalDate;
 }
